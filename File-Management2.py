@@ -18,3 +18,19 @@ for i in l:
 data.close()
 even.close()
 odd.close()
+
+print("Data File Content")
+data=open("data.txt")
+print(data.read())
+data.close()
+
+print("Even File Content")
+data=open("even.txt")
+print(data.read())
+data.close()
+
+print("Odd File Content")
+data=open("odd.txt")
+print(data.read())
+data.close()
+
